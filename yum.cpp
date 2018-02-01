@@ -2,5 +2,5 @@
 
 yum::yum()
 {
-
+	cmd = "yum";
 }

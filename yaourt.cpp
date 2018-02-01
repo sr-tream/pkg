@@ -2,5 +2,5 @@
 
 yaourt::yaourt()
 {
-
+	cmd = "yaourt";
 }

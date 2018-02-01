@@ -1,6 +1,7 @@
 #ifndef YAOURT_H
 #define YAOURT_H
 
+#include "pacman.h"
 
 class yaourt : public pacman
 {

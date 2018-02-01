@@ -14,4 +14,23 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    pkginterface.cpp \
+    apt.cpp \
+    pacman.cpp \
+    pacaur.cpp \
+    yaourt.cpp \
+    zypper.cpp \
+    dnf.cpp \
+    yum.cpp
+
+HEADERS += \
+    pkginterface.h \
+    apt.h \
+    pacman.h \
+    pacaur.h \
+    yaourt.h \
+    zypper.h \
+    dnf.h \
+    yum.h \
+    main.h

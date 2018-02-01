@@ -1,6 +1,6 @@
 #include "pacaur.h"
 
-pacaur::pacaur()
+pacaur::pacaur() : pacman()
 {
-
+	cmd = "pacaur";
 }
